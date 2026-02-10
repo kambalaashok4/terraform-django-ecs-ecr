@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  django:
+    build: .
+    container_name: myprofile
+    ports:
+      - "8000:8000"
+    environment:
+      - DJANGO_SETTINGS_MODULE=MyProfile.settings
+
