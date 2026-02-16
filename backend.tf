@@ -1,3 +1,5 @@
+ ##s3 backend configuration for Terraform state management
+ 
  terraform {
       backend "s3" {
         bucket         = "amz-terr-state"
