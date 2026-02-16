@@ -33,7 +33,7 @@ jobs:
     ## plan terraform and save the plan to tfplan file
     - name: 'Terraform Plan'
       run: terraform plan -out=tfplan
-    ## apply terraform using the tfplan file
+    ## apply terraform using the tfplan file with auto provisioning
     - name: 'Terraform Apply'
       run: terraform apply -auto-approve tfplan
 
