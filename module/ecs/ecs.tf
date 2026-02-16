@@ -93,6 +93,12 @@ resource "aws_security_group" "aws-container-security-group" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+  ingress {
+    from_port   = 443
+    to_port     = 65535
+    protocol    = "tcp"
+    cidr_blocks = ["49.37.169.138/32"]
+  }
 
   egress {
     from_port   = 0
