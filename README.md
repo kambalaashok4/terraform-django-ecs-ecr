@@ -1,4 +1,4 @@
-## django-ecs-ecr-terraform
+## terraform-django-ecs-ecr
 
 ![image](https://github.com/joelwembo/django-ecs-ecr-terraform/assets/19718580/ed515d91-20ca-44af-b003-60759797e112)
 
@@ -13,7 +13,7 @@ we also created a CI/CD pipeline using Github Actions to deploy the #dockerized 
 
 ## Local test
 
-docker build -t django-ecs-ecr-terraform .
+docker build -t terraform-django-ecs-ecr .
 
 OR
 
